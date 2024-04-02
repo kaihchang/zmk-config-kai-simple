@@ -19,8 +19,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: kai_simple_left rgbled_adapter
+    shield: kai_simple_left
   - board: nice_nano_v2
-    shield: kai_simple_right rgbled_adapter
+    shield: kai_simple_right
   - board: nice_nano_v2
     shield: settings_reset
