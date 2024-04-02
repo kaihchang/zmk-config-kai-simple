@@ -1,0 +1,16 @@
+if SHIELD_KAI_SIMPLE_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Kai Simple"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_KAI_SIMPLE_LEFT || SHIELD_KAI_SIMPLE_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
