@@ -19,8 +19,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: kai_simple_left
+    shield: kai_simple_left led_indicator
   - board: nice_nano_v2
-    shield: kai_simple_right
+    shield: kai_simple_right led_indicator
   - board: nice_nano_v2
     shield: settings_reset
