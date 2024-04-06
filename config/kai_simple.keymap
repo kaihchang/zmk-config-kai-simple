@@ -29,7 +29,7 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <1 2>;
+            key-positions = <1 0>;
             bindings = <&kp ESC>;
             layers = <0 1 2 3>;
         };
@@ -49,7 +49,7 @@
 
         combo_manager {
             timeout-ms = <50>;
-            key-positions = <0 1>;
+            key-positions = <0 2>;
             bindings = <&kp LS(LC(ESCAPE))>;
         };
 
@@ -77,13 +77,13 @@
 
         combo_delete_2 {
             bindings = <&kp DELETE>;
-            key-positions = <23 24>;
+            key-positions = <2 3>;
             timeout-ms = <50>;
         };
 
         combo_backspace_2 {
             bindings = <&kp BACKSPACE>;
-            key-positions = <23 22>;
+            key-positions = <1 2>;
         };
 
         combo_delete_1 {
