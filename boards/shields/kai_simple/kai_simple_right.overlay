@@ -7,6 +7,7 @@
 #include "kai_simple.dtsi"
 
 &kscan0 {
+    wakeup-source;
     input-gpios
         = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // sw_18
         , <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // sw_19
