@@ -7,7 +7,7 @@
 #include "kai_simple.dtsi"
 
 &default_transform { // The matrix transform for this board is 5 columns over because the left half is 5 columns wide according to the matrix.
-    col-offset = <5>;
+    col-offset = <17>;
 };
 
 &kscan0 {
