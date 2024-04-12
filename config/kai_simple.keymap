@@ -142,7 +142,7 @@
             bindings = <
 &mt LEFT_CONTROL Q  &kp W  &kp F  &kp P  &kp G               &kp J  &kp L        &kp U                               &kp Y                              &mt LEFT_GUI SQT
 &kp A               &kp R  &kp S  &kp T  &kp D               &kp H  &kp N        &kp E                               &kp I                              &kp O
-&kp Z               &kp X  &kp C  &kp V  &kp B               &kp K  &kp Q        &holdtap_comma LA(LC(COMMA)) COMMA  &holdtap_period LG(PERIOD) PERIOD  &kp FSLH
+&kp Z               &kp X  &kp C  &kp V  &kp B               &kp K  &kp M        &holdtap_comma LA(LC(COMMA)) COMMA  &holdtap_period LG(PERIOD) PERIOD  &kp FSLH
                                   &sl 1  &kp LEFT_SHIFT             &lt 3 SPACE  &sl 2
             >;
         };
