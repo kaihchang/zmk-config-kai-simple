@@ -31,7 +31,6 @@
             timeout-ms = <50>;
             key-positions = <1 0>;
             bindings = <&kp ESC>;
-            layers = <0 1 2 3>;
         };
 
         combo_tab {
@@ -44,7 +43,6 @@
             timeout-ms = <50>;
             key-positions = <27 28>;
             bindings = <&kp RETURN>;
-            layers = <0 1 2 3>;
         };
 
         combo_manager {
@@ -62,6 +60,7 @@
         combo_toggle1 {
             bindings = <&tog 1>;
             key-positions = <30 31>;
+            layers = <0 1 2 3>;
         };
 
         combo_toggle3 {
@@ -73,22 +72,26 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <11 12>;
             timeout-ms = <50>;
+            layers = <0 1 2 3>;
         };
 
         combo_delete_2 {
             bindings = <&kp DELETE>;
             key-positions = <12 13>;
             timeout-ms = <50>;
+            layers = <0 1 2 3>;
         };
 
         combo_backspace_2 {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 17>;
+            layers = <0 1 2 3>;
         };
 
         combo_delete_1 {
             bindings = <&kp DELETE>;
             key-positions = <17 18>;
+            layers = <0 1 2 3>;
         };
     };
 
