@@ -51,10 +51,10 @@
             bindings = <&kp LS(LC(ESCAPE))>;
         };
 
-        combo_cnq {
+        combo_highlight {
             timeout-ms = <50>;
-            key-positions = <8 9>;
-            bindings = <&cnq_macro>;
+            key-positions = <16 19>;
+            bindings = <&highlight_macro>;
         };
 
         combo_toggle1 {
@@ -102,6 +102,13 @@
             bindings = <&kp GRAVE &kp LBKT &kp GRAVE &kp RIGHT_BRACKET &kp LEFT_ARROW &kp LEFT_ARROW &kp DOWN_ARROW &kp DOWN_ARROW>;
             label = "CNQ_MACRO";
         };
+
+        highlight_macro: highlight_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp HOME &kp LS(END)>;
+            label = "HIGHLIGHT_MACRO";
+        };
     };
 
     behaviors {
@@ -143,8 +150,8 @@
         default_layer {
             display-name = "O";
             bindings = <
-&kp Q           &kp W           &kp E               &kp R  &kp T               &kp Y  &kp U        &kp I                               &kp O                              &kp SQT
-&mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &kp F  &kp G               &kp H  &kp J        &mt RIGHT_CONTROL K                 &mt RIGHT_ALT L                    &mt RIGHT_GUI P
+&kp Q           &kp W           &kp E               &kp R  &kp T               &kp Y  &kp U        &kp I                               &kp O                              &kp P
+&mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &kp F  &kp G               &kp H  &kp J        &mt RIGHT_CONTROL K                 &mt RIGHT_ALT L                    &mt RIGHT_GUI SQT
 &kp Z           &kp X           &kp C               &kp V  &kp B               &kp N  &kp M        &holdtap_comma LA(LC(COMMA)) COMMA  &holdtap_period LG(PERIOD) PERIOD  &kp FSLH
                                                     &sl 1  &kp LEFT_SHIFT             &lt 3 SPACE  &sl 2
             >;
