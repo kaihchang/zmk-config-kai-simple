@@ -170,10 +170,10 @@
         right_layer {
             display-name = "!@#$%";
             bindings = <
-&kp GRAVE        &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LC(QUESTION)      &kp TILDE  &kp PIPE        &kp CARET      &cnq_macro        &kp EQUAL
-&kp EXCLAMATION  &kp AT_SIGN        &kp HASH               &kp DOLLAR       &kp PERCENT           &kp MINUS  &kp LESS_THAN   &kp AMPERSAND  &kp GREATER_THAN  &kp ASTERISK
-&kp BACKSLASH    &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp LA(LS(B))         &kp PLUS   &kp UNDERSCORE  &kp SEMICOLON  &kp COLON         &kp QUESTION
-                                                           &to 0            &trans                           &trans          &trans
+&kp GRAVE        &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LC(EXCLAMATION)      &kp TILDE  &kp PIPE        &kp CARET      &cnq_macro        &kp EQUAL
+&kp EXCLAMATION  &kp AT_SIGN        &kp HASH               &kp DOLLAR       &kp PERCENT              &kp MINUS  &kp LESS_THAN   &kp AMPERSAND  &kp GREATER_THAN  &kp ASTERISK
+&kp BACKSLASH    &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp LA(LS(B))            &kp PLUS   &kp UNDERSCORE  &kp SEMICOLON  &kp COLON         &kp QUESTION
+                                                           &to 0            &trans                              &trans          &trans
             >;
         };
 
