@@ -175,8 +175,8 @@
         right_layer {
             display-name = "!@#$%";
             bindings = <
-&kp GRAVE        &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LC(EXCLAMATION)      &kp TILDE  &kp PIPE        &kp CARET      &cnq_macro        &kp EQUAL
-&kp EXCLAMATION  &kp AT_SIGN        &kp HASH               &kp DOLLAR       &kp PERCENT              &kp MINUS  &kp LESS_THAN   &kp AMPERSAND  &kp GREATER_THAN  &kp ASTERISK
+&kp GRAVE        &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LC(EXCLAMATION)      &kp TILDE  &kp PIPE        &kp AMPERSAND  &cnq_macro        &kp EQUAL
+&kp EXCLAMATION  &kp AT_SIGN        &kp HASH               &kp DOLLAR       &kp PERCENT              &kp MINUS  &kp LESS_THAN   &kp CARET      &kp GREATER_THAN  &kp ASTERISK
 &kp BACKSLASH    &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp LA(LS(B))            &kp PLUS   &kp UNDERSCORE  &kp SEMICOLON  &kp COLON         &kp QUESTION
                                                            &to 0            &trans                              &trans          &trans
             >;
@@ -185,10 +185,10 @@
         nav_layer {
             display-name = "nav";
             bindings = <
-&bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &kp F11  &kp F12            &kp PAGE_UP    &kp HOME  &kp UP           &kp END            &kp C_PLAY_PAUSE
-&kp F6      &kp F7      &kp F8      &kp F9   &kp F10            &kp PAGE_DOWN  &kp LEFT  &kp DOWN         &kp RIGHT          &kp C_VOLUME_UP
-&kp F1      &kp F2      &kp F3      &kp F4   &kp F5             &mkp MB4       &mkp MB5  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp C_VOLUME_DOWN
-                                    &to 0    &kp BACKSPACE                     &trans    &trans
+&bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &kp F11  &kp F12            &mkp MB4         &mkp MB5           &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE
+&kp F6      &kp F7      &kp F8      &kp F9   &kp F10            &kp HOME         &kp LEFT           &kp UP           &kp RIGHT          &kp END
+&kp F1      &kp F2      &kp F3      &kp F4   &kp F5             &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp DOWN         &kp PAGE_UP        &kp PAGE_DOWN
+                                    &to 0    &kp BACKSPACE                       &trans             &trans
             >;
         };
 
