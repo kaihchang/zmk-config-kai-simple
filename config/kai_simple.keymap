@@ -72,14 +72,14 @@
         combo_backspace_1 {
             bindings = <&kp BACKSPACE>;
             key-positions = <11 12>;
-            timeout-ms = <50>;
+            timeout-ms = <30>;
             layers = <0 1 2 3>;
         };
 
         combo_delete_2 {
             bindings = <&kp DELETE>;
             key-positions = <12 13>;
-            timeout-ms = <50>;
+            timeout-ms = <30>;
             layers = <0 1 2 3>;
         };
 
@@ -87,12 +87,14 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <16 17>;
             layers = <0 1 2 3>;
+            timeout-ms = <30>;
         };
 
         combo_delete_1 {
             bindings = <&kp DELETE>;
             key-positions = <17 18>;
             layers = <0 1 2 3>;
+            timeout-ms = <30>;
         };
 
         combo_copy {
