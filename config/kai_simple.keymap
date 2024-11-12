@@ -199,9 +199,9 @@
         gaming_layer {
             display-name = "GAME";
             bindings = <
-&kp R  &kp Q  &kp C  &kp E           &kp T          &kp T   &kp I     &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &to 0
-&kp F  &kp A  &kp W  &kp D           &kp G          &kp G   &kp LEFT  &kp UP           &kp RIGHT          &kp F12
-&kp Z  &kp X  &kp S  &kp V           &kp B          &trans  &trans    &kp DOWN         &trans             &kp LA(TAB)
+&kp R  &kp Q  &kp C  &kp E           &kp T          &kp T           &kp I     &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &to 0
+&kp F  &kp A  &kp W  &kp D           &kp G          &kp G           &kp LEFT  &kp UP           &kp RIGHT          &kp F12
+&kp Z  &kp X  &kp S  &kp V           &kp B          &studio_unlock  &trans    &kp DOWN         &trans             &kp LA(TAB)
                      &kp LEFT_SHIFT  &kp SPACE              &kp Z     &kp X
             >;
         };
