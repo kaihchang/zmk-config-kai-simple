@@ -20,6 +20,8 @@
 include:
   - board: nice_nano_v2
     shield: kai_simple_left led_indicator
+    # enable ZMK studio, only on the central side
+    snippet: studio-rpc-usb-uart 
   - board: nice_nano_v2
     shield: kai_simple_right led_indicator
   - board: nice_nano_v2
