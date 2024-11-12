@@ -1,4 +1,4 @@
-#include <physical_layouts.dtsi>
+#include <kai_simple.dtsi>
 
 / {
     physical_layout0: physical_layout_0 {
