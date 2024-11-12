@@ -5,6 +5,7 @@
  */
 
 #include "kai_simple.dtsi"
+#include "kai_simple-layout.dtsi"
 
 &default_transform {
     col-offset = <17>;
@@ -34,6 +35,6 @@
 };
 
 &physical_layout0 {
-    kscan = <&kscan0>;
-    transform = <&matrix_transform0>;
+    kscan = &kscan0;
+    transform = &default_transform;
 };

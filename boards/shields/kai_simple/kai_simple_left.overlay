@@ -5,6 +5,7 @@
  */
 
 #include "kai_simple.dtsi"
+#include "kai_simple-layout.dtsi"
 
 &kscan0 {
     wakeup-source;
@@ -30,6 +31,6 @@
 };
 
 &physical_layout0 {
-    kscan = <&kscan0>;
-    transform = <&matrix_transform0>;
+    kscan = &kscan0;
+    transform = &default_transform;
 };
